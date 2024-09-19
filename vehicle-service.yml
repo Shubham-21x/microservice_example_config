@@ -1,0 +1,19 @@
+server:
+  port: 5006
+
+spring:
+  application:
+    name: vehicle-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/micro_test    
+    username: admin                   
+    password: 12345                   
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
