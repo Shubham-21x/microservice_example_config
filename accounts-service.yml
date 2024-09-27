@@ -6,8 +6,8 @@ spring:
     name: accounts-service
   datasource:
     url: jdbc:postgresql://localhost:5432/micro_test    
-    username: "{cipher}8c28b0722e7df7b63572e7e12313a0ddb58afa68493d0ae022d00190500c750b"                  
-    password: "{cipher}98e415c42916b5c497df3a6b76c80f7ce642e435e6ec0f4873cabb2466d8f488"                   
+    username: {cipher}8c28b0722e7df7b63572e7e12313a0ddb58afa68493d0ae022d00190500c750b                  
+    password: {cipher}98e415c42916b5c497df3a6b76c80f7ce642e435e6ec0f4873cabb2466d8f488                   
   jpa:
     properties:
       hibernate:
