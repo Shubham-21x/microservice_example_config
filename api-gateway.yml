@@ -20,5 +20,9 @@ management:
       exposure:
         include: "*"
   endpoint:
-    shutdown:
+    gateway:
+      access: unrestricted
+  info:
+    env:
       enabled: true
+
